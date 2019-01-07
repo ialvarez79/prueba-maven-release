@@ -15,7 +15,6 @@
 	<scm>
 		<connection>scm:git:git@github.com:ialvarez79/prueba-maven-release.git</connection>
 	</scm>
-
 	<distributionManagement>
 		<snapshotRepository>
 			<id>nexus-snapshots</id>
@@ -99,17 +98,11 @@
 				</configuration>
 			</plugin>
 			<plugin>
-				<groupId>external.atlassian.jgitflow</groupId>
-				<artifactId>jgitflow-maven-plugin</artifactId>
-				<version>1.0-m5.1</version>
+				<groupId>com.amashchenko.maven.plugin</groupId>
+				<artifactId>gitflow-maven-plugin</artifactId>
+				<version>1.11.0</version>
 				<configuration>
-					<flowInitContext>
-						<developBranchName>develop</developBranchName>
-						<featureBranchPrefix>feature-</featureBranchPrefix>
-						<releaseBranchPrefix>release-</releaseBranchPrefix>
-						<hotfixBranchPrefix>hotfix-</hotfixBranchPrefix>
-						<versionTagPrefix>tag-</versionTagPrefix>
-					</flowInitContext>
+					<!-- optional configuration -->
 				</configuration>
 			</plugin>
 		</plugins>
