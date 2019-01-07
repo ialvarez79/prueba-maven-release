@@ -7,7 +7,7 @@
 
 	<groupId>com.mercadolibre.pruebas.melitoolkit</groupId>
 	<artifactId>prueba-maven-release</artifactId>
-	<version>1.2.5-SNAPSHOT</version>
+	<version>1.2.5</version>
 
 	<name>melitoolkit-tests</name>
 	<!-- FIXME change it to the project's website -->
